@@ -48,7 +48,7 @@ class CashierEntry:
 
 ----------------------------------------------------------------------
 
-É possível observer que na classe CashierValidator, sua responsabilidade é validar a entrada, sendo essa a classe CashierEntry. CashierValidator só possui uma única função, a qual válida entrada, e um único atributo, que indica o que está fora de estoque. CashierEntry possui o necessário para guardar o registro da transação, sendo todos inicializados dentro do construtor, e uma função que retorna o ID do Item do registro de entrada, que será posteriormente validado para então ser armazenado.
+É possível observar que na classe CashierValidator, sua responsabilidade é validar a entrada, sendo essa a classe CashierEntry. CashierValidator só possui uma única função, a qual válida entrada, e um único atributo, que indica o que está fora de estoque. CashierEntry possui o necessário para guardar o registro da transação, sendo todos inicializados dentro do construtor, e uma função que retorna o ID do Item do registro de entrada, que será posteriormente validado para então ser armazenado.
 
 O problema que ele resolve é justamente manter o código coeso para situações futuras. Se tudo fosse escrito em uma única classe Cashier, por exemplo, poderia causar aglomeração de informações e uso compartilhado de atributos que não deveriam conversar entre si.
 
