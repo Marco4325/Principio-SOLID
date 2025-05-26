@@ -98,7 +98,7 @@ class CashierValidator(ICashierValidator):
 ```
 
 ----------------------------------------------------------------------
-(No exemplo apresentado, CashierManager possui 'printEntries()' puramente por motivos de teste, creio que se fosse um caso real, seria errado tê-lo ali. Creio também que CashierManager poderia se tornar uma interface, já que cada caixa pode querer gerenciar entradas e saídas e sua própria maneira)
+(No exemplo apresentado, CashierManager possui 'printEntries()' puramente por motivos de teste, creio que se fosse um caso real, seria errado tê-lo ali. Creio também que CashierManager poderia se tornar uma interface, já que cada caixa pode querer gerenciar entradas e saídas de sua própria maneira)
 CashierManager.py
 ```
 
