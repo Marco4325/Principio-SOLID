@@ -4,7 +4,7 @@ Para a apresentação dos princípios selecionados, criei uma situação de entr
 
 # Princípio da responsabilidade única
 
-O princípio da responsabilidade única é a praticamente uma tradução direta da propriedade de coesão. A diferença é que a propriedade estabelece relações únicas de forma genelarizada, enquanto o princípio entra em um sentido de projetar para casos futuros, o qual ao invés de pensar "qual a responsabilidade dessa classe?", pensa "por qual motivo eu modificaria essa clase?".
+O princípio da responsabilidade única é a praticamente uma tradução direta da propriedade de coesão. A diferença é que a propriedade estabelece relações únicas de forma genelarizada, enquanto o princípio entra em um sentido de projetar para casos futuros, o qual ao invés de pensar "qual a responsabilidade dessa classe?", pensa "por qual motivo eu modificaria essa classe?".
 
 Para meu código, cada arquivo possui responsabilidade própria, o qual é único para mudanças futuras (assim como suas funções e atributos).
 
